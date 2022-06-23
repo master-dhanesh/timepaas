@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Vo";
+    src: url(./fonts/VOYAGE-REGULAR.TTF);
+}
+
+@font-face {
+    font-family: "mo";
+    src: url(./fonts/MONTSERRAT-REGULAR.TTF);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,19 +34,19 @@ body {
 }
 
 h1 {
-    font: 100 5vmax "Voyage";
+    font: 100 5vmax "Vo";
     color: #fff;
 }
 
 p {
-    font: 300 1.2vmax "montserrat";
+    font: 300 1.2vmax "mo";
     color: #fff;
     margin: 1vmax 0;
 }
 
 button {
     padding: 1vmax 3vmax;
-    font: 300 1.2vmax "montserrat";
+    font: 300 1.2vmax "mo";
     border: 1px solid white;
     background-color: transparent;
     color: #fff;
